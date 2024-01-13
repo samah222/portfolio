@@ -1,10 +1,11 @@
 :root {
-  --bg-color: #070a2d;
-  --font-color: #cdced5;
-  --link-color: lightblue;
+  --bg-color: #f5f5f9;
+  --font-color: #03031e;
+  --font-color-2: #8d8d9d;
+  --link-color: rgb(57, 165, 201);
   --text-color-1: rgb(205, 182, 197);
-  --text-color-2: rgba(214, 255, 127, 1);
-  --headline-color: white;
+  --text-color-2: rgb(45, 34, 139);
+  --headline-color: rgb(19, 0, 9);
 }
 html {
   scroll-behavior: smooth;
@@ -17,7 +18,7 @@ html {
 
 body {
   min-height: 100vh;
-  background-color: #3a0425;
+  background-color: #f5eef2;
   text-align: center;
   font-family: "Work Sans", sans-serif;
   /* remove scroll bar and disable scroll */
@@ -46,8 +47,8 @@ a {
   text-decoration: none;
 }
 p {
-  color: var(--font-color);
-  font-size: 14px;
+  color: var(--font-color-2);
+  font-size: 16px;
   line-height: 1.1rem;
 }
 ul {
@@ -233,6 +234,7 @@ main hr {
 /* Repo Description */
 .repository-description {
   text-align: left;
+  --text-color-1: rgb(205, 182, 197);
 }
 
 /* Repo Langauges */
